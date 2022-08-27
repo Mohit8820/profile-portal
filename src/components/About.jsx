@@ -1,5 +1,5 @@
 import React from "react";
-import ScriptTag from "react-script-tag";
+//import ScriptTag from "react-script-tag";
 
 import "./about.css";
 import css from "../assets/images/css.webp";
@@ -34,7 +34,7 @@ function About() {
           </div>
           <h1 className="typed trans">
             Hello,
-            <br />I am
+            <br />I am Mohit
             <span
               className="typer"
               id="main"
@@ -44,11 +44,11 @@ function About() {
             ></span>
             <span className="cursor" data-owner="main"></span>
           </h1>
-          <ScriptTag
+          {/* <ScriptTag
             type="text/javascript"
             async
             src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"
-          />
+          /> */}
         </div>
         <button
           className="Resume-btn"
