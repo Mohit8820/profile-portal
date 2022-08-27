@@ -34,7 +34,7 @@ function About() {
           </div>
           <h1 className="typed trans">
             Hello,
-            <br />I am Mohit
+            <br />I am Mohit Sah
             <span
               className="typer"
               id="main"
