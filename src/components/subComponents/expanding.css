@@ -1,0 +1,63 @@
+.each-step {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 0.5rem 0.5rem 0 0;
+  text-align: justify;
+  font-weight: 500;
+  box-shadow: rgb(0, 0, 0, 25%) 0px 2px 5px;
+  width: 22vw;
+  position: absolute;
+  bottom: 0;
+}
+.each-step:hover .content {
+  max-height: 1rem;
+}
+
+.collapsible {
+  border: none;
+  color: #3a30aa;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 0.5rem 0.7rem 0.2rem;
+  font-size: 1.4rem;
+  border-radius: 1rem;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+}
+
+/* .opened {
+  border-radius: 1rem 1rem 0 0;
+} */
+.collapsible:after {
+  content: "\002B";
+  background: linear-gradient(to bottom, #b671cf, #3a30aa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  width: 2rem;
+  height: 2rem;
+  /* text-align: center;
+  border: white 0.3rem solid;
+  border-radius: 50%; */
+}
+
+.opened:after {
+  content: "\2212";
+}
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0rem 1rem;
+  font-size: 1rem;
+  transition: all 0.5s ease-out;
+  overflow-y: scroll;
+  box-shadow: none !important;
+  /* background-color: #f1f1f1; */
+  max-height: 0;
+}
+.expand {
+  max-height: 10rem !important;
+}
